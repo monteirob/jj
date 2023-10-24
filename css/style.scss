@@ -78,7 +78,7 @@ p {
   line-height: 1.6;
   margin: 0;
   font-size: 15px;
-  color: #748182;
+  color: #303334;
 }
 
 // animate headline
@@ -388,7 +388,7 @@ p {
     }
 
     .sub-title {
-      color: #999;
+      color: #5a5a5a;
       text-transform: uppercase;
       letter-spacing: 2px;
       margin-bottom: 20px;
@@ -444,6 +444,45 @@ p {
   }
 }
 
+// .map-section {
+//   width: 70%;
+//   margin: 20px auto;
+
+//   svg {
+//     width: 100%;
+//     height: auto;
+//   }
+
+//   // svg:not(:hover) path {
+//   //   opacity: 0.6;
+//   // }
+
+//   path {
+//     fill: #e0e0e0; // Default country color
+//     transition: fill 0.3s ease; // Smooth color change
+//     opacity: 0.7;
+//   }
+//   #BR,
+//   #AR,
+//   #PL,
+//   #NL,
+//   #ES,
+//   #US,
+//   #CA,
+//   #CL,
+//   #BE,
+//   #LU {
+//     fill: #eeb035;
+//     opacity: 1;
+//     &:hover {
+//       fill: #eeb035;
+//       transform: translateY(-5px);
+//       transition: transform 0.3s;
+//       filter: drop-shadow(3px 3px 5px rgba(185, 185, 185, 0.3));
+//     }
+//   }
+// }
+
 /* -------------------------------------------------------
                      Services 
 -------------------------------------------------------- */
@@ -455,13 +494,6 @@ p {
     box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     border-radius: 5px;
-
-    &:hover {
-      .icon {
-        background: #1c1c1c;
-        color: #eee;
-      }
-    }
 
     .icon {
       font-size: 30px;
