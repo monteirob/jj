@@ -26,7 +26,7 @@ $desk: 991px;
 @import "main.css";
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #343434;
   font-weight: 400;
 }
@@ -71,13 +71,13 @@ h4,
 h5,
 h6,
 .logo {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
   line-height: 1.6;
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   color: #303334;
 }
 
@@ -218,7 +218,7 @@ p {
   }
 
   .navbar-nav > li {
-    font-size: 14px;
+    font-size: 18px;
     margin: 25px 20px 0;
     padding: 5 10px;
     background: none;
@@ -269,7 +269,7 @@ p {
 .logo {
   float: left;
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -491,7 +491,7 @@ p {
   .item {
     padding: 50px 20px;
     background: #fff;
-    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     border-radius: 5px;
 
@@ -576,13 +576,14 @@ p {
     }
 
     h6 {
-      font-size: 14px;
+      font-size: 18px;
       font-weight: 700;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       position: relative;
       // margin-bottom: 15px;
       // transform: translateY(-15px);
       transition: all 0.5s;
+      padding-left: 14px;
     }
 
     .icon {
@@ -1071,6 +1072,12 @@ p {
     .buton {
       padding: 10px 40px;
     }
+  }
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
   }
 }
 
