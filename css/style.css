@@ -459,16 +459,11 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
-.portfolio .item-img:hover h6, .portfolio .item-img:hover .icons {
-  transform: translateY(0);
-}
 .portfolio .item-img h6 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 2px;
   position: relative;
-  margin-bottom: 15px;
-  transform: translateY(-15px);
   transition: all 0.5s;
 }
 .portfolio .item-img .icon i {
@@ -496,6 +491,18 @@ p {
   transition: all 0.5s;
   z-index: 2;
   transform: translateY(10px);
+}
+.portfolio .item-img-bottom {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 10px;
+  background: rgba(190, 193, 193, 0.626);
+  opacity: 1;
+  transition: all 0.5s;
+  z-index: 2;
+  transform: translateY(10px);
+  height: 40px;
 }
 
 /* -------------------------------------------------------
@@ -811,6 +818,10 @@ p {
 .contact .info .item h6 {
   font-weight: 700;
   margin-bottom: 10px;
+}
+.contact .form {
+  display: flex;
+  flex-direction: column;
 }
 .contact .form input[type=text],
 .contact .form input[type=email],

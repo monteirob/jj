@@ -1,9 +1,9 @@
 <?php
 
 // configure
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'Julie Bezerra Site <donotreply@juliebezerra.com>';
 $sendTo = 'Julie Bezerra <hello@juliebezerra.com>';
-$subject = 'New message from contact form';
+$subject = 'Julie Bezerra - Nova Mensagem';
 $fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
@@ -12,7 +12,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "Nova mensagem de contato do site\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 

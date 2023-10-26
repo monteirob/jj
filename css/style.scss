@@ -572,16 +572,16 @@ p {
 
     &:hover h6,
     &:hover .icons {
-      transform: translateY(0);
+      // transform: translateY(0);
     }
 
     h6 {
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 700;
       letter-spacing: 2px;
       position: relative;
-      margin-bottom: 15px;
-      transform: translateY(-15px);
+      // margin-bottom: 15px;
+      // transform: translateY(-15px);
       transition: all 0.5s;
     }
 
@@ -615,6 +615,19 @@ p {
     transition: all 0.5s;
     z-index: 2;
     transform: translateY(10px);
+  }
+  .item-img-bottom {
+    position: absolute;
+    // top: 5px;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+    background: rgba(190, 193, 193, 0.626);
+    opacity: 1;
+    transition: all 0.5s;
+    z-index: 2;
+    transform: translateY(10px);
+    height: 40px;
   }
 }
 /* -------------------------------------------------------
@@ -1036,6 +1049,9 @@ p {
   }
 
   .form {
+    display: flex;
+    flex-direction: column;
+
     input[type="text"],
     input[type="email"],
     textarea {
