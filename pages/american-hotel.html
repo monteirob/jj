@@ -21,22 +21,14 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600,700,800" rel="stylesheet" />
 
-    <!-- owl carousel CSS -->
     <link rel="stylesheet" href="../css//owl.carousel.min.css" />
     <link rel="stylesheet" href="../css//owl.theme.default.min.css" />
 
-    <!-- magnific-popup CSS -->
     <link rel="stylesheet" href="../css//magnific-popup.css" />
 
-    <!-- animate.min CSS -->
     <link rel="stylesheet" href="../css//animate.min.css" />
-
-    <!-- Font Icon Core CSS -->
-    <!-- <link rel="stylesheet" href="../css//font-awesome.min.css" /> -->
     <link rel="stylesheet" href="../css//all.min.css" />
     <link rel="stylesheet" href="../css//et-line.css" />
-
-    <!-- Core Style Css -->
     <link rel="stylesheet" href="../css//style.css" />
 
     <!--[if lt IE 9]-->
@@ -44,7 +36,7 @@
     <!--[endif]-->
   </head>
   <body>
-    <section class="pf-ahr-bg">
+    <section class="pf-ahr-bg" data-scroll-index="50">
       <div class="pf-header">
         <div class="pf-header-img">
           <img src="../img/portfolio/PDP-cover.jpg" alt="Assit Cover Image" />
@@ -52,7 +44,12 @@
       </div>
     </section>
     <section class="pf-section pt-first">
-      <a href="../index.html#portfolio"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back To Portfolio</a>
+      <a href="../index.html#portfolio">
+        <div class="btn-back-wrapper">
+          <span class="icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span><span class="btn-back">Portfolio</span>
+        </div></a
+      >
+
       <h2>American Hotel Product Detail Page Redesign</h2>
       <h4>UX/UI Design | 2023</h4>
       <div class="pf-p">
@@ -234,13 +231,12 @@
             always click on Add to Cart.
           </p>
         </div>
-        <div class="pt-32">
+        <div class="pt-32 pb-32">
           <div class="md-img">
-            <img src="../img/portfolio/Screenshot 2023-10-26 at 23.52.54.png" alt="PDP Redesign screens image" />
+            <video src="../img/portfolio/st.webm" height="350" width="680" controls autoplay loop>
+              <p>Error occurred</p>
+            </video>
           </div>
-          <!-- <div class="md-img">
-            <video src="/img/portfolio/sticky.webm" width="680"></video>
-          </div> -->
         </div>
       </div>
       <div class="pf-section divider pt-32">
@@ -270,7 +266,7 @@
         </div>
       </div>
     </section>
-    <section class="pf-section pt-64" style="padding-bottom: 148px">
+    <section class="pf-section pt-64 pb-64">
       <h3>To Conclude</h3>
       <div class="pf-p">
         <p>
@@ -289,6 +285,22 @@
           For the next steps, after the redesign is implemented, we will validate it with users and iterate it, if needed. As mentioned
           before, this project will be used as a starting point for the redesign of the whole website.
         </p>
+      </div>
+    </section>
+    <section>
+      <div class="pf-section">
+        <div class="nav-bottom nav-divider">
+          <div class="bottom-back">
+            <a href="../index.html#portfolio"
+              ><span class="icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span> <span>Portfolio</span></a
+            >
+          </div>
+          <div class="bottom-up">
+            <a href="#" data-scroll-nav="50"
+              ><span class="icon"><i class="fa fa-chevron-up" aria-hidden="true"></i></span> <span>Back to Top</span></a
+            >
+          </div>
+        </div>
       </div>
     </section>
 

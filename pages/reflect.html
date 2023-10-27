@@ -12,7 +12,7 @@
     <title>Julie Bezerra</title>
 
     <!-- favicon -->
-    <link href="img/fav2.png" rel="icon" type="image/png" />
+    <link href="../img/fav2.png" rel="icon" type="image/png" />
 
     <!-- bootstrap css -->
     <link rel="stylesheet" href="../css//bootstrap.min.css" />
@@ -44,182 +44,115 @@
     <!--[endif]-->
   </head>
   <body>
-    <!-- Header Image -->
-    <header id="social-pet" class="container details-header">
-      <img src="../img/portfolio/1.jpg" alt="Social Pet App Project" class="header-img" />
-    </header>
-
-    <section class="pt-30 pb-50" data-scroll-index="2">
-      <div class="container">
-        <!-- section heading -->
-        <div class="details-intro">
-          <h1>Social Pet App</h1>
-          <h4>UX Concept | 2017</h4>
+    <section class="pf-reflect-bg">
+      <div class="pf-header">
+        <div class="pf-header-img">
+          <img src="../img/portfolio/Reflect-cover.png" alt="Assit Cover Image" />
         </div>
       </div>
     </section>
-    <section class="container details-header">
-      <h3>Intro</h3>
+    <section class="pf-section pt-first">
+      <a href="../index.html#portfolio">
+        <div class="btn-back-wrapper">
+          <span class="icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span><span class="btn-back">Portfolio</span>
+        </div></a
+      >
+      <h2>Reflect</h2>
+      <h4>UX/UI Design | 2021</h4>
+      <div class="pf-p">
+        <p>
+          Reflect, one of Incision's web platforms, was designed to enhance the performance of medical residents by evaluating their
+          surgical skills with help of AI.
+        </p>
+      </div>
     </section>
+    <section class="pf-section">
+      <h3 style="max-width: 450px">How does it work?</h3>
+      <div class="pf-p">
+        <p>
+          Within the Reflect web platform, users submit surgical procedure recordings for assessment. The system then analyzes the video,
+          employing AI to identify the instruments used, their timing, and duration. This information is presented in a visual timeline
+          format for each instrument, with highlighted timestamps, enabling users to easily navigate to specific segments in the video
+          corresponding to each instrument's usage.
+        </p>
+      </div>
+      <div class="pf-img-md">
+        <img src="../img/portfolio/Reflect-1.png" alt="Assist screens image" />
+      </div>
+      <div class="pf-p pt-0">
+        <p>
+          Users have the option to view surgical recordings alongside their colleagues, initiating internal discussions and receiving
+          evaluations from their supervisors. The evaluation process involves completing a questionnaire within an internal assessment tool,
+          which generates a score for comparison with their peers. Additionally, users can view areas where their responses differ from the
+          group, serving as a valuable indicator for potential surgical skill enhancement.
+        </p>
+        <br />
+        <p>
+          Furthermore, users have the ability to conduct self-assessments and compare their self-evaluation results with those provided by
+          their manager and the group.
+        </p>
+      </div>
+      <div class="pf-img-md">
+        <img src="../img/portfolio/Reflect-2.png" alt="Assist screens image" />
+      </div>
+    </section>
+    <section class="pf-section pb-64">
+      <h3>Design</h3>
+      <div class="pf-p">
+        <p>
+          My role as the UX designer in this project was conducting workshop sessions with key stakeholders to define business requirements
+          and constraints, creating user journey and mind maps, creating the designs and building interactive prototypes.
+        </p>
+        <br />
+        <p>
+          The user interface was created based on their own design system. It was crucial to keep the same look and feel and reuse
+          components as they are part of the same group of platforms and apps provided by the company.
+        </p>
+      </div>
+    </section>
+    <section class="bg-gr1 pt-sec">
+      <div class="pf-section">
+        <h3>Some challenges and how I overcame them</h3>
 
-    <!-- Introduction -->
-    <section class="overview details-section">
-      <div class="container details-flex">
-        <div class="details-p">
+        <div class="pf-p">
           <p>
-            Social Pet marked the beginning of my UX journey, conceived during a UX course in Buenos Aires, Argentina. It's an MVP concept
-            for a mobile app tailored for pet enthusiasts, envisioned to foster a community where users can connect over shared interests
-            regarding pets.
+            From a design standpoint, creating a scalable user interface for the instrument timelines presented a significant challenge,
+            given the potential for an unlimited number of items. My solution was to design a custom video control bar seamlessly integrated
+            with the instrument timelines. This interface includes a prominent dark vertical line that offers users an at-a-glance view of
+            concurrent instrument usage. This line is interactive, enabling users to click and drag it to a specific point in the video.
           </p>
+          <br />
           <p>
-            Throughout this project, I navigated various stages of the UX process, from discovery to user testing, employing a range of
-            methods:
+            The 'Compare Answers' side sheet required some UX sessions with stakeholders to optimize the information structure, as it
+            involves various hierarchical levels, including steps, sub-steps, user responses, and highlighted divergent answers. I opted to
+            maintain the same structure as the questionnaire for steps and substeps, even though it meant additional scrolling on the sheet.
+            This approach, however, ensures consistency with the assessment process. Additionally, unselected options are hidden, reducing
+            the potential length of the sheet.
           </p>
-          <ul class="pt-20">
-            <li>Problem Definition</li>
-            <li>Personas</li>
-            <li>Benchmarking</li>
-            <li>Wireframing</li>
-            <li>Testing</li>
-            <li>Prototyping</li>
-          </ul>
-        </div>
-        <div class="details-img__1">
-          <img src="../img/portfolio/Thumbnail - Social Pet.jpg" alt="Social Pet Logo" />
+          <br />
+          <p>
+            To streamline development and maintain consistency across Incision's platforms, I made the strategic decision to employ a
+            pre-existing status banner to emphasize divergent answers.
+          </p>
         </div>
       </div>
     </section>
-
-    <section class="bg-gray pt-50 pb-50">
-      <div class="container">
-        <div class="details-header pb-30">
-          <h3>The Challenge</h3>
-        </div>
-        <div class="details-flex">
-          <div class="details-img__1">
-            <img src="../img/portfolio/Thumbnail - Social Pet.jpg" alt="Personas" />
+    <section>
+      <div class="pf-section">
+        <div class="nav-bottom">
+          <div class="bottom-back">
+            <a href="../index.html#portfolio"
+              ><span class="icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></span> <span>Portfolio</span></a
+            >
           </div>
-          <div class="details-p">
-            <p>
-              Engaging with potential users unveiled diverse needs such as more frequent dog walks, sharing pet photos, meeting other pet
-              owners, and exchanging experiences. A common thread among these needs was the desire for socialization.
-            </p>
-            <blockquote>
-              Pet owners yearn for connections within their community as it motivates them to dedicate more time for activities with their
-              pets, alleviating stress, separation anxiety, and behavioral issues in the animals.
-            </blockquote>
-            <p>
-              I crafted various personas from user interviews and performed benchmarking to hone in on key features for the app MVP: search
-              functionality, calendar, media sharing (images and videos), and chat.
-            </p>
-            <!-- Add personas images here -->
+          <div class="bottom-up">
+            <a href="#" data-scroll-nav="50"
+              ><span class="icon"><i class="fa fa-chevron-up" aria-hidden="true"></i></span> <span>Back to Top</span></a
+            >
           </div>
         </div>
       </div>
     </section>
-
-    <section class="pt-50 pb-50">
-      <div class="container">
-        <div class="details-header pb-30">
-          <h3>Sketches & Wireframes</h3>
-        </div>
-        <div class="details-flex">
-          <div class="details-p0">
-            <p>
-              A sketch session was conducted during the course to garner initial feedback and insights from fellow designers. This feedback
-              propelled the creation of lo-fi wireframe prototypes for user testing, to pinpoint areas of improvement within the app.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <!-- items -->
-          <div class="img-container">
-            <div class="img-sketch">
-              <img src="../img/portfolio/2.jpg" alt="Sketches" />
-            </div>
-            <div class="img-sketch">
-              <img src="../img/portfolio/2.jpg" alt="Sketches" />
-            </div>
-            <div class="img-sketch">
-              <img src="../img/portfolio/2.jpg" alt="Sketches" />
-            </div>
-            <div class="img-sketch">
-              <img src="../img/portfolio/2.jpg" alt="Sketches" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-gray pt-50 pb-50">
-      <div class="container">
-        <div class="details-header pb-30">
-          <h3>User Interface</h3>
-        </div>
-        <div class="details-flex">
-          <div class="details-p">
-            <p>
-              The user interface emerged from the wireframes and user feedback, utilizing a vibrant palette to delineate key pages and
-              establish a hierarchy among elements. This was particularly pivotal on intricate pages like the calendar, where abundant
-              information could potentially confound users.
-            </p>
-            <!-- Add personas images here -->
-          </div>
-          <div class="details-img__2">
-            <img src="../img/portfolio/Thumbnail - Social Pet.jpg" alt="Personas" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="pt-50 pb-50">
-      <div class="container">
-        <div class="details-header pb-30">
-          <h3>Takeaways</h3>
-        </div>
-        <div class="details-flex">
-          <div class="details-p0">
-            <p>
-              This project was a maiden voyage into applying UX design techniques and contemplating the entire process, which was a fresh
-              terrain for me. Despite knowing that I would approach certain aspects differently now, this endeavor holds a special place in
-              my heart as it echoes my evolution as a designer.
-            </p>
-            <p>
-              Given more time, I would further user-test the prototype, focusing on refining the app based on user feedback and introducing
-              new features aligned with user needs.
-            </p>
-          </div>
-        </div>
-        <div class="img-bottom">
-          <img src="../img/portfolio/2.jpg" alt="Sketches" />
-        </div>
-        <div class="row">
-          <!-- items -->
-          <!-- <div class="img-container">
-            <div class="img-sketch">
-              <img src="../img/portfolio/2.jpg" alt="Sketches" />
-            </div>
-            <div class="img-sketch">
-              <img src="../img/portfolio/2.jpg" alt="Sketches" />
-            </div>
-            <div class="img-sketch">
-              <img src="../img/portfolio/2.jpg" alt="Sketches" />
-            </div>
-            <div class="img-sketch">
-              <img src="../img/portfolio/2.jpg" alt="Sketches" />
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </section>
-    <section class="pt-50 pb-50">
-      <div class="container">
-        <div class="pb-30 details-end">
-          <h2>Thank You!</h2>
-        </div>
-      </div>
-    </section>
-
     <!-- Footer -->
     <!--====== Footer ======-->
     <footer>
